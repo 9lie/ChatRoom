@@ -57,7 +57,7 @@ int main() {
         std::cin >> buf;
         int len = write(client_socket, buf.c_str(), buf.size());
         if (len <= 0) {
-        	exit(0);
+            exit(0);
         }
     }
 }
